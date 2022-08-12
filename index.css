@@ -1,12 +1,13 @@
 body {
     margin: 0;
-    background: #1F2937;
     text-align: center;
+    background: #1F2937;
+   font-family: 'Inter', sans-serif;
+    
 }
 
-
+/* ----HEADER -Start---- */
 .header{
-
    background: #6943FF;
    color: #ffffff;
    padding: 33px 50px;
@@ -14,20 +15,22 @@ body {
 
 #header-title{
     font-size: 28px;
+   
 }
 
 #input-el{
     font-size: 58px;
+    color: #ffffff;
+    
     border: 1px solid white;
-    width: 63px;
-    display: block;
-    background: #1F2937;
-    color: #FFFAFA;
- 
     padding: 4px 2pc;  
     margin: 0 auto;
     border-radius: 7px;
-   
+    width: 30%;
+    
+    background: #6943FF;
+    display: block;
+    
 }
 
 #input-el[type=number]::-webkit-inner-spin-button, 
@@ -37,15 +40,20 @@ body {
 }
 
 button{
-   margin-top: 27px;
+    margin-top: 27px;
     padding: 17px 30px;
-    border-radius: 5px;
     border: none;
+    border-radius: 5px;
+  
+    font-family: 'Inter', sans-serif;
     font-size: 25px;
+    font-weight:  600;
     color: #3D3D3D;
- ;
+ 
 }
+/* ----HEADER -End---- */
 
+/* ----MAIN -Start---- */
 h4{
     color: #CCC1FF;
 }
@@ -55,10 +63,12 @@ h5{
 
 .main_unit-section{
     padding: 20px;
-    background: #273549;
     margin:  0 23px 23px 23px;
+    
+    background: #273549;
+    
 }
-
+/* ----MAIN -End---- */
 
 
 
