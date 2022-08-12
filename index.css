@@ -2,7 +2,7 @@ body {
     margin: 0;
     text-align: center;
     background: #1F2937;
-   font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     
 }
 
@@ -20,13 +20,14 @@ body {
 
 #input-el{
     font-size: 58px;
+    text-align: center;
     color: #ffffff;
     
     border: 1px solid white;
     padding: 4px 2pc;  
     margin: 0 auto;
     border-radius: 7px;
-    width: 30%;
+    width: 15%;
     
     background: #6943FF;
     display: block;
