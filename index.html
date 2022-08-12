@@ -1,13 +1,21 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
+        
+        <!-- ---HEADER - Start----- -->
         <div class = "header">
             <h2 id = "header-title" >Metric/Imperial Unit Conversion<h2>
                 <input id = "input-el" type = "number"  >
                 <button id ="btn-convert">Convert</button>
         </div>
+         <!-- ---HEADER - End----- -->
+         
+         <!-- ---MAIN - Start----- -->
         <div class = "main">
                 <div class = "main_unit-section" >
                         <h4>Length(Meter/Feet)</h4>
@@ -22,6 +30,8 @@
                         <h5 id = "conversion-mass" ></h5>
                  </div>
         </div>
+         <!-- ---MAIN - End---
+         -- -->
         <script src="index.js"></script>
     </body>
 </html>
