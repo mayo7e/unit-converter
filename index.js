@@ -62,7 +62,6 @@ btnConvert.addEventListener("click", function(){
     
         inputNum = inputEl.value
         inputEl.value = ""
-        // console.log(inputNum)
         localStorage.setItem("inputNum", inputNum)
     
         render(inputNum)
